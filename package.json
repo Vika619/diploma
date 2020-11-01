@@ -1,7 +1,7 @@
 {
   "name": "diplom-project",
   "version": "1.0.0",
-  "description": "This is diploma project for govno-cursi",
+  "description": "This is diploma project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
