@@ -1,0 +1,230 @@
+@media screen and (max-width:576px) {
+  .logo {
+    width: 100px;
+    height: 30px;
+    margin-right: 250px;
+  }
+  .list a {
+    font-size: 14px;
+    margin-left: 25px;
+  }
+  .btn1 {
+    width: 80px;
+    font-size: 12px;
+    margin-left: 30px;
+  }
+  .envelope {
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+  }
+  .section1 {
+    padding-bottom: 230px;
+    padding-top: 40px;
+    .sec1 {}
+    .section {
+      font-size: 12px;
+    
+      &__title {
+        font-size: 24px;
+      }
+      &__extra {
+        font-size: 14px;
+      }
+    }
+    .sec1__btn {
+      width: 150px;
+      font-size: 14px;
+    }
+    .forward {
+      width: 15px;
+      height: 15px;
+    }
+    .sec__img {
+      width: 308px;
+      height: 390px;
+      transform: translate(100px, 245px);
+    }
+  }
+  .section2 {
+    padding-top: 200px;
+    padding-bottom: 600px;
+  }
+  .sec2{
+    width: 350px;
+    margin-bottom: 5px;
+  
+    &__title {
+      font-size: 20px;
+    }
+    &__description {
+      font-size: 14px;
+    }
+  }
+  .gal {
+    width: 228px;
+  
+    &__img {
+      width: 230px;
+      height: 230px;
+    }
+    &__title {
+      font-size: 18px;
+      margin-left: 25px;  
+    }
+    &__description {
+      font-size: 14px;
+      margin-left: 25px;
+    }
+  }
+  .wrapper {
+  
+    &__extra {
+      font-size: 14px;
+      margin-left: 25px;
+    }
+    &__arrow {}
+  }
+  .background {
+    width: 360px;
+    height: 410px;
+    margin-top: 300px;
+    margin-left: 100px;
+    position: absolute;
+    transform: translate(-45px, -204px);
+  }
+  .bcg {
+    width: 305px;
+    padding-top: 10px;
+    padding-left: 10px;
+  
+  
+    &__item {
+      font-size: 12px;
+      margin-bottom: 10px;
+    }
+    &__title {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    &__description {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+  }
+  .extra {
+  
+    &__i {
+      font-size: 14px;
+    }
+    &__p {
+      height: 15px;
+      width: 15px;
+    }
+  }
+  .pattern {
+    transform: translate(121px, -131px);
+    width: 300px;
+  }
+  .section3{
+    padding-top: 150px;
+  }
+  .sec3 {
+    width: 480px;
+  
+    &__title {
+      font-size: 28px;
+    }
+    &__description {
+      font-size: 14px;
+    }
+  }
+  .btn3__b {
+    width: 110px;
+    font-size: 14px;
+  }
+  .btn3__i {
+    width: 15px;
+    height: 15px;
+  }
+  
+  .text {
+    margin-left: 0px;
+    padding-bottom: 60px;
+  }
+  .column {
+    display: flex;
+    flex-flow: column wrap;
+    width: 360px;
+  
+    &__title {
+      font-size: 18px;
+    }
+    &__desc {
+      font-size: 14px;
+  
+    }
+  }
+  .info {
+  
+    &__i {
+      font-size: 14px;
+    }
+    &__a {
+      width: 15px;
+      height: 15px;
+    }
+  }
+  .sec4 {
+    padding-bottom: 37px;
+  
+    &__info {
+      font-size: 12px;
+    }
+    &__title {
+      font-size: 28px;
+    }
+    &__desc {
+      font-size: 14px;
+    }
+  }
+  .btn4 {
+    width: 90px;
+    font-size: 14px;
+  
+  }
+  .btn4__i {
+    width: 15px;
+    height: 15px;
+  }
+  .build__img {
+    transform: translate(278px, -415px);
+    width: 267px;
+  }
+  .logo2 {
+    width: 100px;
+    height: 30px;
+    margin-right: 390px;
+  }
+  .name {
+    width: 218px;
+    padding-top: 50px;
+  
+    &__title {
+      font-size: 12px;
+    }
+    &__desc {
+      font-size: 14px;
+    }
+  }
+  .foot {
+    margin-left: 30px;
+  
+    &__extra1 {
+      font-size: 12px;
+    }
+    &__extra2 {
+      font-size: 12px;
+    }
+  }
+}

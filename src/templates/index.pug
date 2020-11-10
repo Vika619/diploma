@@ -4,6 +4,10 @@ html(lang="en")
     meta(charset="utf-8")
     title= "Diploma"
     link(rel="stylesheet" href='styles/style.css')
+    link(rel="stylesheet", href='styles/etrsmall.css')
+    link(rel="stylesheet", href="styles/small.css")
+    link(rel="stylesheet", href="styles/medium.css")
+    link(rel="stylesheet", href="styles/large.css")
   body
    header
      .logo
@@ -37,36 +41,36 @@ html(lang="en")
      h1.sec2__title Unsere Dienstleistungen
      p.sec2__description Dienstleistung ist für unsere Mitarbeiter Herausforderung, das ist die Stärke unseres Teams. Ganz gleich, ob Verkehrsplanungen, Ver- und Ent­sorgung, Lärmschutz oder Spezialgebiete – wir bieten Rundum-Service mit:
     .gallery
-     .gallery__item
-      img.gal(src="images/stadion.png", alt="")
+     .gal
+      img.gal__img(src="images/stadion.png", alt="")
       h1.gal__title Studien und Konzepte, Gesamtplanung
       p.gal__description Neubau und Ausbau von Straßen, Verkehrsflächen, Wasserwegen und Eisenbahnen erfordert überzeugende Verkehrskonzepte.
       .wrapper
-       p.gal__extra Erfahren Sie mehr
-       img.gal__arrow(src="images/forward.png", alt="")
-     .gallery__item
-      img.gal(src="images/stadion1.png", alt="")
+       p.wrapper__extra Erfahren Sie mehr
+       img.wrapper__arrow(src="images/forward.png", alt="")
+     .gal
+      img.gal__img(src="images/stadion1.png", alt="")
       h1.gal__title Verkehrsanlagen und Ingenieurbauwerke
       p.gal__description Verkehrskonzepte sind ein entscheidender Faktor jeglicher Infrastruktur. Das Ingenieurbüro Weiss hat deshalb ein Expertenteam aufgebaut.
       .wrapper
-       p.gal__extra Erfahren Sie mehr
-       img.gal__arrow(src="images/forward.png", alt="")
-     .gallery__item
-      img.gal(src="images/stadion2.png", alt="")
+       p.wrapper__extra Erfahren Sie mehr
+       img.wrapper__arrow(src="images/forward.png", alt="")
+     .gal
+      img.gal__img(src="images/stadion2.png", alt="")
       h1.gal__title Entwurfsvermessung, 3D-Laserscanning
       p.gal__description Bei Ausführung sämtlicher vermessungstechnischer Aufgaben im Leistungsbild „Ent­wurfs­vermessung“ sind wir ein leistungsstarker Partner.
       .wrapper
-       p.gal__extra Erfahren Sie mehr
-       img.gal__arrow(src="images/forward.png", alt="")
+       p.wrapper__extra Erfahren Sie mehr
+       img.wrapper__arrow(src="images/forward.png", alt="")
     .background
-     .bcg__item
-      p.bcg Unsere Firmenhistorie
+     .bcg
+      p.bcg__item Unsere Firmenhistorie
       h1.bcg__title Diplom-Ingenieur Dieter Weiss gründete im Jahre 1971 sein Ingenieurbüro.
       p.bcg__description Fast 30 Jahre lang führte er es als Alleininhaber. 1998 trat Sohn Klaus weiss als Stellvertreter an die Seite seines Vaters. Seit 2006 ist Diplom-Ingenieur Klaus Weiss alleiniger Geschäftsführer
       hr
-      .bcg__extra
-       p.extra Lesen Sie weiter
-       img.extra__i(src="images/forward.png", alt="")
+      .extra
+       p.extra__i Lesen Sie weiter
+       img.extra__p(src="images/forward.png", alt="")
      img.pattern(src="images/pattern.png", alt="")
 
    section.section3
@@ -74,8 +78,8 @@ html(lang="en")
       .sec3
        h1.sec3__title Wissenswertes
        p.sec3__description Integer massa urna, senectus maecenas in dapibus urna amet hendrerit. In ipsum, morbi amet aenean. Iaculis donec sem nullam nunc condimentum nisl non gravida in. 
-      .sec3__btn 
-       button.btn3 Unser Blog
+      .btn3 
+       button.btn3__b Unser Blog
         img.btn3__i(src="images/forward.png", alt="")
     p.com__title Unsere Letzten Beiträge
     .text 
@@ -112,13 +116,13 @@ html(lang="en")
      .logo__wrapper 
       img.logo2(src="images/logo2.png", alt="")  
       .name
-       h1.name__title Geschäftsführer
-       p.name__desc Beratender Ingenieur Dipl.-Ing. Klaus Weiss 
+        h1.name__title Geschäftsführer
+        p.name__desc Beratender Ingenieur Dipl.-Ing. Klaus Weiss 
       .name
-       h1.name__title Adresse
-       p.name__desc Straßenname 712345 Stadt 
+        h1.name__title Adresse
+        p.name__desc Straßenname 712345 Stadt 
       hr
-    .foot__extra 
+    .foot
       p.foot__extra1 Impressum |
       p.foot__extra2 Datenschutz
         

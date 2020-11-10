@@ -12,11 +12,11 @@ const browserSync = require('browser-sync').create();
 gulp.task('compile:scss', function() {
   return gulp.src('src/styles/**/*.scss')
              .pipe(sass())
-            //  .pipe(autoprefixer({
-            //       overrideBrowserslist: ['last 2 versions'],
-            //       cascade: false
-            //   }))
-            //  .pipe(cleanCSS({compatibility: 'ie8'}))
+              .pipe(autoprefixer({
+                   overrideBrowserslist: ['last 2 versions'],
+                   cascade: false
+               }))
+              .pipe(cleanCSS({compatibility: 'ie8'}))
              .pipe(gulp.dest('dist/styles'))
              .pipe(browserSync.stream())
 });

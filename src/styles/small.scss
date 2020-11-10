@@ -1,0 +1,68 @@
+@media screen and (max-width:768px) {
+  .logo {
+    margin-right: 395px;
+  }
+  .section1 {
+    .sec__img {
+      width: 300px;
+      height: 380px;
+      transform: translate(430px, 225px);
+    }
+  }
+  .section2 {
+    padding-top: 175px;
+  }
+  .sec2{
+    margin-bottom: 0px;
+  }
+  .gal {
+    width: 262px;
+  }
+  .background {
+    width: 630px;
+    height: 410px;
+    margin-top: 300px;
+    margin-left: 100px;
+    position: absolute;
+    transform: translate(-45px, -204px);
+  }
+  .bcg {
+    width: 305px;
+    padding-top: 10px;
+    padding-left: 10px;
+  
+  
+    &__item {
+      font-size: 12px;
+      margin-bottom: 10px;
+    }
+    &__title {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    &__description {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+  }
+  .pattern {
+    transform: translate(295px, -252px);
+    width: 400px;
+  }
+  .section3 {
+    padding-top: 65px;
+  }
+  .text {
+    padding-bottom: 145px;
+}
+  .build__img {
+    transform: translate(303px, -600px);
+    width: 450px;
+  }
+  .logo2 {
+    margin-right: 144px;
+  }
+  .foot {
+    margin-left: 33px;
+  }
+}

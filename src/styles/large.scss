@@ -1,0 +1,39 @@
+@media screen and (max-width: 1200px) {
+  .logo {
+    margin-right: 74px;
+  }
+  .section1 {
+    .sec__img {
+      transform: translate(494px, -68px);
+    }
+  }
+  .gal {
+    width: 263px;
+  }
+  .sec2 {
+    margin-bottom: 0px;
+  }
+  .background {
+    width: 682px;
+    height: 478px;
+    transform: translate(-10px, -147px);
+  }
+  .bcg {
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  .pattern {
+    transform: translate(416px, -307px);
+    width: 550px;
+  }
+  .column {
+    margin-bottom: 25px;
+  }
+  .build__img {
+    transform: translate(388px, -758px);
+    width: 700px;
+  }
+  .logo2 {
+    margin-right: 125px;
+  }
+}
