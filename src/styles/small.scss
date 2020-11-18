@@ -1,30 +1,81 @@
 @media screen and (max-width:768px) {
+  *+* {
+    margin: 0;
+    padding: 0;
+    max-width: 768px;
+  }
   .logo {
-    margin-right: 395px;
+    margin-right: 360px;
+    width: 100px;
+    height: 30px;
+  }
+  .list a {
+    font-size: 15px;
+    margin-left: 20px;
+  }
+  .btn1 {
+    width: 85px;
+    font-size: 13px;
+    margin-left: 23px;
   }
   .section1 {
+    padding-bottom: 230px;
+    padding-top: 40px;
+    .sec1 {
+      width: 350px;
+      margin: 0 auto;
+    }
+    .section {
+      font-size: 13px;
+    
+      &__title {
+        font-size: 22px;
+      }
+      &__extra {
+        font-size: 13px;
+      }
+    }
+    .sec1__btn {
+      width: 135px;
+      font-size: 13px;
+    }
+    .forward {
+      width: 15px;
+      height: 15px;
+    }
     .sec__img {
-      width: 300px;
-      height: 380px;
-      transform: translate(430px, 225px);
+      width: 278px;
+      height: 354px;
+      transform: translate(96px, 267px);
     }
   }
+
   .section2 {
-    padding-top: 175px;
+    padding-top: 130px;
+    padding-bottom: 600px;
+    margin: 0 auto;
   }
   .sec2{
-    margin-bottom: 0px;
+    width: 370px;
+    margin: 0 auto;
+  
+    &__title {
+      font-size: 22px;
+    }
+    &__description {
+      font-size: 14px;
+    }
   }
   .gal {
-    width: 262px;
+    width: 250px;
   }
   .background {
-    width: 630px;
+    width: 409px;
     height: 410px;
     margin-top: 300px;
     margin-left: 100px;
     position: absolute;
-    transform: translate(-45px, -204px);
+    transform: translate(-67px, -204px);
   }
   .bcg {
     width: 305px;
@@ -46,21 +97,26 @@
     }
   }
   .pattern {
-    transform: translate(295px, -252px);
+    transform: translate(120px, -138px);
     width: 400px;
   }
   .section3 {
-    padding-top: 65px;
+    padding-top: 225px;
   }
   .text {
     padding-bottom: 145px;
-}
+  }
+  .sec4 {
+    padding-top: 135px;
+  }
   .build__img {
-    transform: translate(303px, -600px);
+    transform: translate(74px, -696px);
     width: 450px;
   }
   .logo2 {
-    margin-right: 144px;
+    margin-right: 6px;
+    width: 100px;
+    height: 30px;
   }
   .foot {
     margin-left: 33px;

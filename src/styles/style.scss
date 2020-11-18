@@ -1,8 +1,8 @@
 @import "fonts";
-@import "../styles/etrsmall.scss";
-@import "../styles/small.scss";
+@import "../styles/large.scss";
 @import "../styles/medium.scss";
-@import "../styles/large.scss"
+@import "../styles/small.scss";
+@import "../styles/extrasmall.scss";
 
 * + *{
   margin: 0;
@@ -16,6 +16,10 @@ h1,
 {
   margin: 0;
   padding: 0;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1366px;
 }
 
 body {
@@ -33,7 +37,7 @@ header {
 .logo {
   width: 134.48px;
   height: 38.34px;
-  margin-right: 250px;
+  margin-right: 300px;
 }
 .nav {
 }

@@ -1,17 +1,22 @@
-@media screen and (max-width:576px) {
+@media screen and (max-width:576px) and (min-width:320px) {
+  body {
+    margin: 0;
+    padding: 0;
+    max-width: 576px;
+  }
   .logo {
     width: 100px;
     height: 30px;
-    margin-right: 250px;
+    margin-left: 50px;
   }
   .list a {
     font-size: 14px;
-    margin-left: 25px;
+    margin-left: 13px;
   }
   .btn1 {
     width: 80px;
     font-size: 12px;
-    margin-left: 30px;
+    margin: 0 auto;
   }
   .envelope {
     width: 15px;
@@ -21,44 +26,48 @@
   .section1 {
     padding-bottom: 230px;
     padding-top: 40px;
-    .sec1 {}
+    .sec1 {
+      width: 275px;
+      margin: 0 auto;
+    }
     .section {
       font-size: 12px;
     
       &__title {
-        font-size: 24px;
+        font-size: 20px;
       }
       &__extra {
-        font-size: 14px;
+        font-size: 12px;
       }
     }
     .sec1__btn {
-      width: 150px;
-      font-size: 14px;
+      width: 125px;
+      font-size: 12px;
     }
     .forward {
       width: 15px;
       height: 15px;
     }
     .sec__img {
-      width: 308px;
-      height: 390px;
-      transform: translate(100px, 245px);
+      width: 242px;
+      height: 306px;
+      transform: translate(12px, 334px);
     }
   }
   .section2 {
     padding-top: 200px;
     padding-bottom: 600px;
+    margin: 0 auto;
   }
   .sec2{
-    width: 350px;
-    margin-bottom: 5px;
+    width: 257px;
+    margin: 0 auto;
   
     &__title {
       font-size: 20px;
     }
     &__description {
-      font-size: 14px;
+      font-size: 13px;
     }
   }
   .gal {
@@ -86,17 +95,17 @@
     &__arrow {}
   }
   .background {
-    width: 360px;
+    width: 330px;
     height: 410px;
     margin-top: 300px;
     margin-left: 100px;
     position: absolute;
-    transform: translate(-45px, -204px);
+    transform: translate(-128px, -204px);
   }
   .bcg {
-    width: 305px;
+    width: 250px;
     padding-top: 10px;
-    padding-left: 10px;
+    padding-left: 35px;
   
   
     &__item {
@@ -104,18 +113,18 @@
       margin-bottom: 10px;
     }
     &__title {
-      font-size: 20px;
+      font-size: 18px;
       margin-bottom: 10px;
     }
     &__description {
-      font-size: 14px;
+      font-size: 12px;
       margin-bottom: 10px;
     }
   }
   .extra {
   
     &__i {
-      font-size: 14px;
+      font-size: 12px;
     }
     &__p {
       height: 15px;
@@ -123,20 +132,23 @@
     }
   }
   .pattern {
-    transform: translate(121px, -131px);
+    transform: translate(16px, -107px);
     width: 300px;
   }
   .section3{
-    padding-top: 150px;
+    padding-top: 160px;
+  }
+  .sec3__wrapper {
+    margin: 0 28px;
   }
   .sec3 {
-    width: 480px;
+    width: 245px;
   
     &__title {
-      font-size: 28px;
+      font-size: 20px;
     }
     &__description {
-      font-size: 14px;
+      font-size: 12px;
     }
   }
   .btn3__b {
@@ -147,6 +159,10 @@
     width: 15px;
     height: 15px;
   }
+  .com__title {
+    font-size: 14px;
+    margin-left: 40px;
+  }
   
   .text {
     margin-left: 0px;
@@ -155,7 +171,8 @@
   .column {
     display: flex;
     flex-flow: column wrap;
-    width: 360px;
+    width: 219px;
+    margin: 0 auto;
   
     &__title {
       font-size: 18px;
@@ -177,15 +194,18 @@
   }
   .sec4 {
     padding-bottom: 37px;
+    margin: 0 auto;
+    width: 225px;
+    padding-top: 107px;
   
     &__info {
       font-size: 12px;
     }
     &__title {
-      font-size: 28px;
+      font-size: 20px;
     }
     &__desc {
-      font-size: 14px;
+      font-size: 12px;
     }
   }
   .btn4 {
@@ -198,13 +218,13 @@
     height: 15px;
   }
   .build__img {
-    transform: translate(278px, -415px);
+    transform: translate(21px, -400px);
     width: 267px;
   }
   .logo2 {
     width: 100px;
     height: 30px;
-    margin-right: 390px;
+    margin-right: 122px;
   }
   .name {
     width: 218px;
@@ -218,7 +238,7 @@
     }
   }
   .foot {
-    margin-left: 30px;
+    margin-left: 42px;
   
     &__extra1 {
       font-size: 12px;
