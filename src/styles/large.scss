@@ -1,10 +1,16 @@
 @media screen and (max-width: 1200px) {
+  *+* {
+    margin: 0;
+    padding: 0;
+    max-width: 1200px;
+  }
   .logo {
     margin-right: 74px;
   }
   .section1 {
     .sec__img {
-      transform: translate(494px, -68px);
+      transform: translate(494px,-68px);
+      width: 445px;
     }
   }
   .gal {
@@ -16,22 +22,22 @@
   .background {
     width: 682px;
     height: 478px;
-    transform: translate(-10px, -147px);
+    transform: translate(-25px,-147px);
   }
   .bcg {
     padding-top: 10px;
     padding-left: 10px;
   }
   .pattern {
-    transform: translate(416px, -307px);
-    width: 550px;
+    transform: translate(413px,-141px);
+    width: 487px;
   }
   .column {
     margin-bottom: 25px;
   }
   .build__img {
-    transform: translate(388px, -758px);
-    width: 700px;
+    transform: translate(352px,-758px);
+    width: 580px;
   }
   .logo2 {
     margin-right: 125px;
